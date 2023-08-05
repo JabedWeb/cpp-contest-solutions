@@ -34,3 +34,21 @@ In the first sample Petya and Vasya are sure that they know how to solve the fir
 In the second sample the friends will only implement the second problem, as Vasya and Tonya are sure about the solution
 
 */
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    int count=0;
+    while(n--){
+        int p,v,t;
+        cin>>p>>v>>t;
+        int sum=p+v+t;
+        if(sum>1){
+            count++;
+        }
+    }
+    cout<<count<<endl;
+}

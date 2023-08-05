@@ -1,0 +1,7 @@
+**/*.exe
+
+
+git rm --cached -r '*.exe'
+
+.cph
+.vscode
