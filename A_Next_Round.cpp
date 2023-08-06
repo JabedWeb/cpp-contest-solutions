@@ -46,7 +46,7 @@ int main() {
         }
     }
     //if ith place scores is not zero then
-    // then we will make sure who get less or equal to ith place scores
+    // then we will make sure who get more or equal to ith place scores
     else {
         for(int i=0;i<v.size();i++) {
             if(th_place<=v[i]){
