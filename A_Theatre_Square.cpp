@@ -30,18 +30,21 @@ int main() {
     cin>>n>>m>>a;
 
     long long int x,y;
+
     if(n%a==0){
         x=n/a;
     }
-    else{
+    else {
         x=(n/a)+1;
     }
+
     if(m%a==0){
         y=m/a;
     }
-    else{
+    else {
         y=(m/a)+1;
     }
     cout<<x*y<<endl;
     return 0;
 }
+
