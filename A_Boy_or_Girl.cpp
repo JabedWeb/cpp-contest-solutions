@@ -49,7 +49,8 @@ int main() {
             //that we calculate this index already
             if (name[i]==name[j] && name[i]!='1'){
                 count[i]++;
-                name[j]='1'; // when we get same for
+                name[j]='1'; 
+                // when we get same for
                 // for index i then we make all index string 1 or any value;
                 // as a result we don't meed 
             }
