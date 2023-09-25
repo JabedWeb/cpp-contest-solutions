@@ -1,10 +1,14 @@
-a[i] = 3 3
-a[i] = 2 5
-a[i] = 6 6
-a[i] = 7 8
-2 4 5 7 8 8
-a[i] = 3 2
-a[i] = 4 3
-a[i] = 5 4
-1 2 3 4 4
-2 2
+n: 5009
+divisor: 1
+remainder: 9
+n: 500
+divisor: 10
+remainder: 0
+n: 50
+divisor: 100
+remainder: 0
+n: 5
+divisor: 1000
+remainder: 5
+2
+9 5000 
