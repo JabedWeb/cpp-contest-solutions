@@ -114,9 +114,7 @@ trying to append an integer 4
  is not beautiful, so we don't append  4
 
 */
-#include <iostream>
-#include <vector>
-
+#include <bits/stdc++.h>
 using namespace std;
 
 
