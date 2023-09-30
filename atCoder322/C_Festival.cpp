@@ -146,6 +146,5 @@ int main() {
             cout << launchDays[nextLaunchDay] - i << endl;
         }
     }
-
     return 0;
 }
