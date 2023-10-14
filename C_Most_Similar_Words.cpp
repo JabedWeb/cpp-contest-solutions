@@ -1,14 +1,6 @@
 #include "bits/stdc++.h"
 using namespace std;
 
-int cost(string a, string b) {
-    int val = 0;
-    for(int i = 0; i < a.size(); ++i) {
-        val += abs(a[i] - b[i]);
-    }
-    return val;
-}
-
 int main() {
     int t; cin >> t;
     while(t--) {
@@ -20,7 +12,11 @@ int main() {
         int ans = INT_MAX;
         for(int i = 0; i < n; ++i) {
             for(int j = i + 1; j < n; ++j) {
-                ans = min(ans, cost(s[i], s[j]));
+               int val=0;
+               for(int k=0;k<s[i].size();k++){
+                    val+=abs(s[i][k]-s[j][k]);
+               }
+                ans=min(ans,val);
             }
         }
         cout << ans << "\n";
