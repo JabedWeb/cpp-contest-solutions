@@ -21,9 +21,9 @@ int main() {
             cout<<"YES"<<endl;
             continue;
         };
-        //print
+        
         for(int i=1;i<a.size();i++){
-            if(i%2==1) a[i]=a[i]+1;
+            if(i%2==0) a[i]=a[i]+1;
         }
         int even=0;
         int odd=0;
