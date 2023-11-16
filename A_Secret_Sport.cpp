@@ -11,7 +11,9 @@ int main() {
     while (t--) {
         int n; cin >> n;
         string s; cin >> s;
+        //print the last character n times
         cout << s[n-1] << endl;
+
     }
     return 0;
 }
