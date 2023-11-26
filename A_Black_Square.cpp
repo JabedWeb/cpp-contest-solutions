@@ -6,7 +6,7 @@ const int mod = 1e9 + 7;
 const int N = 1e5 + 5;
 
 int solve(int a,vector <int> &v){
-
+    
 }
 
 void solve(){
