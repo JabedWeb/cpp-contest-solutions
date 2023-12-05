@@ -1,4 +1,4 @@
-/// https://atcoder.jp/contests/abc327/tasks/abc327_c
+/// https://atcoder.jp/contests/aabc327_cbc327/tasks/
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
