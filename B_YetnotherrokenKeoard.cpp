@@ -9,12 +9,12 @@ void solve() {
     for (char ch : s) {
         if (ch == 'b') {
             if (!lowerCasePositions.empty()) {
-                result[lowerCasePositions.top()] = '\0'; // Mark for deletion
+                result[lowerCasePositions.top()] = '\0'; 
                 lowerCasePositions.pop();
             }
         } else if (ch == 'B') {
             if (!upperCasePositions.empty()) {
-                result[upperCasePositions.top()] = '\0'; // Mark for deletion
+                result[upperCasePositions.top()] = '\0'; 
                 upperCasePositions.pop();
             }
         } else {
@@ -27,7 +27,7 @@ void solve() {
         }
     }
 
-    // Remove marked characters
+
     result.erase(remove(result.begin(), result.end(), '\0'), result.end());
     cout << result << endl;
 }
