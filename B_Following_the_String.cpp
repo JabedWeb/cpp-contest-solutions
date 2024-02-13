@@ -16,6 +16,7 @@ string recoverString(int n, vector<int> trace) {
         } else {
             s[i] = s[trace[i] - 1]; 
         }
+        cout <<currentMax<<endl;
     }
 
     return s;
@@ -29,7 +30,6 @@ int main() {
         cin >> n;
         vector<int> trace(n);
         for(int i = 0; i < n; i++) cin >> trace[i];
-
         cout << recoverString(n, trace) << '\n';
     }
     return 0;
