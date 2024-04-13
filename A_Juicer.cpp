@@ -15,15 +15,15 @@ void solve(){
     cin >> n >> b >> d;
     vector<int> v(n);
     int empty_count = 0;
-    int total_size = 0;
+    int current_waste = 0;
     for (int i=0;i<n;i++){
         cin>>v[i];
-        if(v[i]>b){
-            total_size++ ;
+        if(v[i]<=b){
+            current_waste+=v[i] ;
         }
-        if(total_size>d){
+        if(current_waste>d){
             empty_count++;
-            total_size = 0;
+            current_waste = 0;
         }
     }
     cout<<empty_count<<endl;
