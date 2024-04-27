@@ -11,8 +11,12 @@ int solve(int a,vector <int> &v){
 
 void solve(){
     int n,k; cin >> n >> k;
-    if(k==1 | k==n) {
+    if(k==n) {
         for(int i=1; i<=n; i++) cout << k << " ";
+        cout << endl;
+    }
+    else if ( k==1) {
+        for(int i=1;i<=n;i++) cout << i << " ";
         cout << endl;
     }
     else cout << -1 << endl;
