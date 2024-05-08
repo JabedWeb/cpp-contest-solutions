@@ -1,4 +1,3 @@
-//https://atcoder.jp/contests/abc326/tasks/abc326_c
 ////https://codeforces.com/contest/770/problem/A
 #include <bits/stdc++.h>
 using namespace std;
@@ -25,3 +24,14 @@ void solve(){
 int main() {
     solve();
 }
+
+
+
+// void solve() {
+//     int n, k;
+//     cin >> n >> k;
+//     for (int i = 0; i <n; i++) {
+//         cout << char('a' + i % k);
+//     }
+//     cout << endl;
+// }
