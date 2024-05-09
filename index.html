@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contact-section">
+        <div class="contact-form">
+            <h1>Get In Touch</h1>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <select>
+                    <option value="">Select a Topic</option>
+                    <option value="web">Web Development</option>
+                    <option value="data">Data Science</option>
+                    <option value="ml">Machine Learning</option>
+                    <option value="other">Other</option>
+                </select>
+                <textarea placeholder="Your Message" required></textarea>
+                <div class="file-upload">
+                    <input type="file">
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="robot-check">
+                    <label for="robot-check">I'm not a robot</label>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="form-image">
+            <img src="https://img.freepik.com/free-vector/flat-design-illustration-customer-support_23-2148887720.jpg?size=626&ext=jpg" alt="Contact Us">
+        </div>
+    </section>
+</body>
+</html>
