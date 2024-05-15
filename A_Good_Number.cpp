@@ -29,6 +29,7 @@ void solve(){
         if(flag) ans++;
     }
     cout<<ans;
+    cout<<endl;
 }
 
 int main() {
