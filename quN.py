@@ -40,5 +40,4 @@ def solve_nq(n):
     print_solution(board)
     return True
 
-# Driver code
 solve_nq(8)

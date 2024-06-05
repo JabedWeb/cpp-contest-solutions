@@ -1,0 +1,61 @@
+
+.app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-user,
+.user {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user span {
+    display: inline-block;
+    width: 30%;
+}
+
+button.edit,
+button.delete {
+    background-color: #ffc107;
+    margin-left: 10px;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
