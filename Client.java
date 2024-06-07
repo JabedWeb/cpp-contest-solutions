@@ -15,7 +15,7 @@ public class Client{
          
          Scanner sc =new Scanner(System.in);
          String messsag= sc.nextLine();
-
+ 
             
         try {
              //send to server 
