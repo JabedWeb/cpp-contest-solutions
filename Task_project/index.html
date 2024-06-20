@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PHP Tasks</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .output {
+            margin-top: 20px;
+        }
+        .task-content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<h1>PHP Tasks</h1>
+
+<div>
+    <button onclick="showTask('task1')">Perfect Number</button>
+    <button onclick="showTask('task2')">Arithmetic Operations</button>
+    <button onclick="showTask('task3')">Fetch Weather Info</button>
+    <button onclick="showTask('task4')">Number Guessing Game</button>
+</div>
+
+<div id="task1" class="task-content">
+    <h2>Task 1: Perfect Number</h2>
+    <input type="number" id="perfectNumberInput" placeholder="Enter a number">
+    <button onclick="checkPerfectNumber()">Check</button>
+    <div id="perfectNumberOutput" class="output"></div>
+</div>
+
+<div id="task2" class="task-content">
+    <h2>Task 2: Arithmetic Operations</h2>
+    <input type="number" id="number1" placeholder="Enter first number">
+    <input type="number" id="number2" placeholder="Enter second number">
+    <button onclick="performArithmetic()">Calculate</button>
+    <div id="arithmeticOutput" class="output"></div>
+</div>
+
+<div id="task3" class="task-content">
+    <h2>Task 3: Fetching Information using AJAX</h2>
+    <button onclick="fetchWeather()">Get Weather Info</button>
+    <div id="weatherOutput" class="output"></div>
+</div>
+
+<div id="task4" class="task-content">
+    <h2>Task 4: Number Guessing Game</h2>
+    <button onclick="startGame()">Start Game</button>
+    <div id="gameOutput" class="output"></div>
+</div>
+
+<script>
+function showTask(taskId) {
+    $('.task-content').hide();
+    $('#' + taskId).show();
+}
+
+// Task 1: Perfect Number
+function checkPerfectNumber() {
+    var number = $('#perfectNumberInput').val();
+    $.post('perfect_number.php', { number: number }, function(data) {
+        $('#perfectNumberOutput').html(data);
+    });
+}
+
+// Task 2: Arithmetic Operations
+function performArithmetic() {
+    var number1 = $('#number1').val();
+    var number2 = $('#number2').val();
+    $.post('arithmetic_operations.php', { number1: number1, number2: number2 }, function(data) {
+        $('#arithmeticOutput').html(data);
+    });
+}
+
+// Task 3: Fetching Information using AJAX
+function fetchWeather() {
+    $.getJSON('weather.json', function(data) {
+        var output = '<ul>';
+        data.weather.forEach(function(city) {
+            output += '<li>' + city.city + ': ' + city.temperature + '°C, ' + city.condition + '</li>';
+        });
+        output += '</ul>';
+        $('#weatherOutput').html(output);
+    });
+}
+
+// Task 4: Number Guessing Game
+var randomNumber;
+var attempts = 0;
+
+function startGame() {
+    randomNumber = Math.floor(Math.random() * 50) + 1;
+    attempts = 0;
+    $('#gameOutput').html('<input type="number" id="guessInput" placeholder="Enter your guess"><button onclick="guessNumber()">Guess</button><div id="guessFeedback"></div>');
+}
+
+function guessNumber() {
+    var guess = $('#guessInput').val();
+    attempts++;
+    var feedback = '';
+    if (guess < randomNumber) {
+        feedback = 'Too low!';
+    } else if (guess > randomNumber) {
+        feedback = 'Too high!';
+    } else {
+        feedback = 'Correct! You guessed the number in ' + attempts + ' attempts.';
+    }
+    $('#guessFeedback').html(feedback);
+}
+</script>
+
+</body>
+</html>

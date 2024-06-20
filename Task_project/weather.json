@@ -1,0 +1,14 @@
+{
+    "weather": [
+        {
+            "city": "CityX",
+            "temperature": 22,
+            "condition": "Sunny"
+        },
+        {
+            "city": "CityY",
+            "temperature": 18,
+            "condition": "Cloudy"
+        }
+    ]
+}
