@@ -7,7 +7,6 @@ const int N = 1e5 + 5;
 
 void solve()
 {
-
     int n;
     cin >> n;
     vector<string> str(n);
