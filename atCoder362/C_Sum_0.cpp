@@ -11,7 +11,7 @@ void solve() {
     vector<pair<ll, ll>> ranges(n);
     ll minSum = 0, maxSum = 0;
     
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; i++) {
         ll L, R;
         cin >> L >> R;
         ranges[i] = {L, R};
