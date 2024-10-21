@@ -4,275 +4,266 @@ These topics and concepts are essential for competitive programming.
 
 ## Algorithms:
 
+
 <details>
-  <summary>Searching and Sorting</summary>
+  <summary>🔍 Searching and Sorting</summary>
   
-  - [Binary search](https://example.com/binary-search)
-  - [Merge sort](https://example.com/merge-sort)
-  - [Quick sort](https://example.com/quick-sort)
+  - **`Binary search`**
+  - **`Merge sort`**
+  - **`Quick sort`**
 </details>
 
 <details>
-  <summary>Graph Algorithms</summary>
+  <summary>🌐 Graph Algorithms</summary>
   
-  - [Breadth-first search (BFS)](https://example.com/bfs)
-  - [Depth-first search (DFS)](https://example.com/dfs)
-  - [Dijkstra's algorithm](https://example.com/dijkstra)
-  - [Floyd-Warshall](https://example.com/floyd-warshall)
-  - [Kruskal's algorithm](https://example.com/kruskal)
-  - [Prim's algorithm](https://example.com/prim)
-  - [Topological sort](https://example.com/topological-sort)
+  - **`Breadth-first search (BFS)`**
+  - **`Depth-first search (DFS)`**
+  - **`Dijkstra's algorithm`**
+  - **`Floyd-Warshall`**
+  - **`Kruskal's algorithm`**
+  - **`Prim's algorithm`**
+  - **`Topological sort`**
 </details>
 
 <details>
-  <summary>Dynamic Programming</summary>
+  <summary>📈 Dynamic Programming</summary>
   
-  - [Understanding the concept of state](https://example.com/state-concept)
-  - [Memoization](https://example.com/memoization)
-  - [Tabulation](https://example.com/tabulation)
+  - **`Understanding the concept of state`**
+  - **`Memoization`**
+  - **`Tabulation`**
 </details>
 
 <details>
-  <summary>Greedy Algorithms</summary>
+  <summary>💡 Greedy Algorithms</summary>
   
-  - [Activity selection](https://example.com/activity-selection)
-  - [Fractional knapsack](https://example.com/fractional-knapsack)
+  - **`Activity selection`**
+  - **`Fractional knapsack`**
 </details>
 
 <details>
-  <summary>Divide and Conquer</summary>
+  <summary>🔄 Divide and Conquer</summary>
   
-  - [Master theorem](https://example.com/master-theorem)
-  - [Strassen’s Matrix Multiplication](https://example.com/strassen-multiplication)
-  - [Closest Pair of Points](https://example.com/closest-pair)
+  - **`Master theorem`**
+  - **`Strassen’s Matrix Multiplication`**
+  - **`Closest Pair of Points`**
 </details>
 
 <details>
-  <summary>Backtracking</summary>
+  <summary>🔙 Backtracking</summary>
   
-  - [N-Queens problem](https://example.com/n-queens)
-  - [Hamiltonian cycle](https://example.com/hamiltonian-cycle)
-  - [Sudoku solver](https://example.com/sudoku-solver)
+  - **`N-Queens problem`**
+  - **`Hamiltonian cycle`**
+  - **`Sudoku solver`**
 </details>
 
 <details>
-  <summary>String Algorithms</summary>
+  <summary>🔤 String Algorithms</summary>
   
-  - [KMP](https://example.com/kmp)
-  - [Z-algorithm](https://example.com/z-algorithm)
-  - [Rabin-Karp](https://example.com/rabin-karp)
-  - [Manacher's algorithm](https://example.com/manacher)
+  - **`KMP`**
+  - **`Z-algorithm`**
+  - **`Rabin-Karp`**
+  - **`Manacher's algorithm`**
 </details>
 
 <details>
-  <summary>Number Theory</summary>
+  <summary>🔢 Number Theory</summary>
   
-  - [Euclidean algorithms](https://example.com/euclidean)
-  - [Modular arithmetic](https://example.com/modular-arithmetic)
-  - [Fermat’s theorem](https://example.com/fermat-theorem)
-  - [Euler’s totient function](https://example.com/euler-totient)
+  - **`Euclidean algorithms`**
+  - **`Modular arithmetic`**
+  - **`Fermat’s theorem`**
+  - **`Euler’s totient function`**
 </details>
 
 <details>
-  <summary>Bit Manipulation</summary>
+  <summary>🔧 Bit Manipulation</summary>
   
-  - [Basic operations](https://example.com/bit-basic)
-  - [Bitmasking](https://example.com/bitmasking)
+  - **`Basic operations`**
+  - **`Bitmasking`**
 </details>
 
 <details>
-  <summary>Geometry</summary>
+  <summary>📐 Geometry</summary>
   
-  - [Convex hull](https://example.com/convex-hull)
-  - [Line intersection](https://example.com/line-intersection)
+  - **`Convex hull`**
+  - **`Line intersection`**
 </details>
 
-## Data Structures:
+## Data Structures
 
 <details>
-  <summary>Arrays and Strings</summary>
+  <summary>🔠 Arrays and Strings</summary>
   
-  - [Arrays](https://example.com/arrays)
-  - [Strings](https://example.com/strings)
-</details>
-
-<details>
-  <summary>Linked Lists</summary>
-  
-  - [Singly linked list](https://example.com/singly-linked-list)
-  - [Doubly linked list](https://example.com/doubly-linked-list)
+  - **`Arrays`**
+  - **`Strings`**
 </details>
 
 <details>
-  <summary>Stacks and Queues</summary>
+  <summary>🔗 Linked Lists</summary>
   
-  - [Stacks](https://example.com/stacks)
-  - [Queues](https://example.com/queues)
+  - **`Singly linked list`**
+  - **`Doubly linked list`**
 </details>
 
 <details>
-  <summary>Trees</summary>
+  <summary>📚 Stacks and Queues</summary>
   
-  - [Binary trees](https://example.com/binary-trees)
-  - [Binary search trees](https://example.com/bst)
-  - [AVL trees](https://example.com/avl-trees)
-  - [Segment trees](https://example.com/segment-trees)
-  - [Fenwick trees](https://example.com/fenwick-trees)
+  - **`Stacks`**
+  - **`Queues`**
 </details>
 
 <details>
-  <summary>Heaps</summary>
+  <summary>🌳 Trees</summary>
   
-  - [Binary heap](https://example.com/binary-heap)
-  - [Fibonacci heap](https://example.com/fibonacci-heap)
+  - **`Binary trees`**
+  - **`Binary search trees`**
+  - **`AVL trees`**
+  - **`Segment trees`**
+  - **`Fenwick trees`**
 </details>
 
 <details>
-  <summary>Hashing</summary>
+  <summary>🔺 Heaps</summary>
   
-  - [Hash table](https://example.com/hash-table)
-  - [Hash functions](https://example.com/hash-functions)
+  - **`Binary heap`**
+  - **`Fibonacci heap`**
 </details>
 
 <details>
-  <summary>Graphs</summary>
+  <summary>🔍 Hashing</summary>
   
-  - [Adjacency matrix](https://example.com/adjacency-matrix)
-  - [Adjacency list](https://example.com/adjacency-list)
+  - **`Hash table`**
+  - **`Hash functions`**
 </details>
 
 <details>
-  <summary>Disjoint Set</summary>
+  <summary>🌐 Graphs</summary>
   
-  - [Union-find data structure](https://example.com/union-find)
+  - **`Adjacency matrix`**
+  - **`Adjacency list`**
 </details>
 
 <details>
-  <summary>Tries</summary>
+  <summary>🔗 Disjoint Set</summary>
   
-  - [Basic Trie](https://example.com/trie)
-</details>
-
-## Standard Template Library (STL) in C++:
-
-<details>
-  <summary>Containers</summary>
-  
-  - [Vector](https://example.com/vector)
-  - [List](https://example.com/list)
-  - [Deque](https://example.com/deque)
-  - [Set](https://example.com/set)
-  - [Multiset](https://example.com/multiset)
-  - [Map](https://example.com/map)
-  - [Multimap](https://example.com/multimap)
+  - **`Union-find data structure`**
 </details>
 
 <details>
-  <summary>Algorithms</summary>
+  <summary>🔠 Tries</summary>
   
-  - [Sort](https://example.com/sort)
-  - [Reverse](https://example.com/reverse)
-  - [Permute](https://example.com/permute)
-  - [Lower_bound](https://example.com/lower-bound)
-  - [Upper_bound](https://example.com/upper-bound)
+  - **`Basic Trie`**
+</details>
+
+## Standard Template Library (STL) in C++
+
+<details>
+  <summary>📦 Containers</summary>
+  
+  - **`Vector`**
+  - **`List`**
+  - **`Deque`**
+  - **`Set`**
+  - **`Multiset`**
+  - **`Map`**
+  - **`Multimap`**
 </details>
 
 <details>
-  <summary>Iterators</summary>
+  <summary>⚙️ Algorithms</summary>
   
-  - [Basic Iterators](https://example.com/iterators)
+  - **`Sort`**
+  - **`Reverse`**
+  - **`Permute`**
+  - **`Lower_bound`**
+  - **`Upper_bound`**
 </details>
 
 <details>
-  <summary>Utility Classes</summary>
+  <summary>🔄 Iterators</summary>
   
-  - [Pair](https://example.com/pair)
-  - [Stack](https://example.com/stack)
-  - [Queue](https://example.com/queue)
-</details>
-
-## Mathematics:
-
-<details>
-  <summary>Combinatorics</summary>
-  
-  - [Permutations](https://example.com/permutations)
-  - [Combinations](https://example.com/combinations)
-  - [Pigeonhole principle](https://example.com/pigeonhole)
+  - **`Basic Iterators`**
 </details>
 
 <details>
-  <summary>Probability</summary>
+  <summary>🛠️ Utility Classes</summary>
   
-  - [Basic Probability](https://example.com/basic-probability)
-  - [Conditional Probability](https://example.com/conditional-probability)
-  - [Bayes' Theorem](https://example.com/bayes-theorem)
+  - **`Pair`**
+  - **`Stack`**
+  - **`Queue`**
+</details>
+
+## Mathematics
+
+<details>
+  <summary>🔢 Combinatorics</summary>
+  
+  - **`Permutations`**
+  - **`Combinations`**
+  - **`Pigeonhole principle`**
 </details>
 
 <details>
-  <summary>Number Theory</summary>
+  <summary>🎲 Probability</summary>
   
-  - [Prime numbers](https://example.com/prime-numbers)
-  - [Greatest common divisor](https://example.com/gcd)
-  - [Least common multiple](https://example.com/lcm)
+  - **`Basic Probability`**
+  - **`Conditional Probability`**
+  - **`Bayes' Theorem`**
 </details>
 
 <details>
-  <summary>Geometry</summary>
+  <summary>🔢 Number Theory</summary>
   
-  - [Basic concepts about points, lines, angles, and polygons](https://example.com/geometry-basics)
-  - [Line intersection](https://example.com/line-intersection)
-  - [Circle properties](https://example.com/circle-properties)
+  - **`Prime numbers`**
+  - **`Greatest common divisor`**
+  - **`Least common multiple`**
 </details>
 
 <details>
-  <summary>Linear Algebra</summary>
+  <summary>📐 Geometry</summary>
   
-  - [Matrices](https://example.com/matrices)
-  - [Determinants](https://example.com/determinants)
-  - [Eigenvalues and Eigenvectors](https://example.com/eigen)
+  - **`Basic concepts about points, lines, angles, and polygons`**
+  - **`Line intersection`**
+  - **`Circle properties`**
 </details>
 
 <details>
-  <summary>Calculus</summary>
+  <summary>📊 Linear Algebra</summary>
   
-  - [Differential Calculus](https://example.com/differential-calculus)
-  - [Integral Calculus](https://example.com/integral-calculus)
-  - [Optimization problems](https://example.com/optimization-problems)
-</details>
-
-## Miscellaneous:
-
-<details>
-  <summary>Recursion</summary>
-  
-  - [Basic Recursion](https://example.com/basic-recursion)
-  - [Tail Recursion](https://example.com/tail-recursion)
+  - **`Matrices`**
+  - **`Determinants`**
+  - **`Eigenvalues and Eigenvectors`**
 </details>
 
 <details>
-  <summary>Problem-solving Paradigms</summary>
+  <summary>📈 Calculus</summary>
   
-  - [Brute force](https://example.com/brute-force)
-  - [Sliding window](https://example.com/sliding-window)
-  - [Divide and Conquer](https://example.com/divide-conquer)
+  - **`Differential Calculus`**
+  - **`Integral Calculus`**
+  - **`Optimization problems`**
+</details>
+
+## Miscellaneous
+
+<details>
+  <summary>🔁 Recursion</summary>
+  
+  - **`Basic Recursion`**
+  - **`Tail Recursion`**
 </details>
 
 <details>
-  <summary>Advanced Data Structures</summary>
+  <summary>🧩 Problem-solving Paradigms</summary>
   
-  - [Suffix arrays](https://example.com/suffix-arrays)
-  - [Suffix trees](https://example.com/suffix-trees)
-  - [Treap](https://example.com/treap)
+  - **`Brute force`**
+  - **`Sliding window`**
+  - **`Divide and Conquer`**
 </details>
 
-
-## 🔗 Profiles
-- **Codeforces**: [Visit Profile](https://codeforces.com/profile/jabedhasan)
-- **AtCoder**: [Visit Profile](https://atcoder.jp/users/jabedweb)
-- **VJudge**: [Visit Profile](https://vjudge.net/user/jabedweb)
-
-## 💌 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/jabed-hasan/)
-- [Email](mailto:jabedhasan231@gmail.com)
+<details>
+  <summary>📚 Advanced Data Structures</summary>
+  
+  - **`Suffix arrays`**
+  - **`Suffix trees`**
+  - **`Treap`**
+</details>
 
